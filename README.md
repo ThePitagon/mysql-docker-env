@@ -1,5 +1,5 @@
 # MySQL Docker Environment
-[![Build Status](https://github.com/travistran1989/mysql-docker-env/workflows/docker-build/badge.svg)](https://github.com/travistran1989/mysql-docker-env/actions/)
+[![Build Status](https://github.com/travistran1989/mysql-docker-env/actions/workflows/docker.yml/badge.svg)](https://github.com/travistran1989/mysql-docker-env/actions/workflows/docker.yml)
 [<img src="https://img.shields.io/twitter/follow/travistran1989.svg?label=Follow&style=social">](https://twitter.com/travistran1989)
 
 Install a lightweight MySQL based on Ubuntu 18.04 Linux.
