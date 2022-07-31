@@ -1,0 +1,41 @@
+version: '3'
+services:
+
+  mysql:
+    image: percona/percona-server:${MYSQL_VERSION}
+    # logging:
+    #   driver: none
+    command: [
+      "--max-connections=100000",
+      "--innodb-buffer-pool-size=1G",
+      "--innodb-log-file-size=1G",
+      "--skip-name-resolve=on",
+      "--max-allowed-packet=512M",
+      "--character-set-server=utf8mb4",
+      "--collation-server=utf8mb4_unicode_ci",
+      "--event-scheduler=on",
+      "--sql-mode=NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION",
+    ]
+    volumes:
+      - "./data:/var/lib/mysql"
+    ports:
+       - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+      MYSQL_RANDOM_ROOT_PASSWORD: 'false'
+      MYSQL_ALLOW_EMPTY_PASSWORD: 'false'
+    restart: always
+
+  phpmyadmin:
+    image: bitnami/phpmyadmin:5.2.0-debian-11-r21
+    # logging:
+    #   driver: none
+    ports:
+      - 8080:8080
+      - 8443:8443
+    environment:
+        DATABASE_HOST: mysql
+    restart: always    
