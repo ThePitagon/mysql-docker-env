@@ -1,6 +1,9 @@
 # MySQL Docker Environment
-[![Build Status](https://github.com/Pitagon-P5N/mysql-docker-env/actions/workflows/docker.yml/badge.svg)](https://github.com/Pitagon-P5N/mysql-docker-env/actions/workflows/docker.yml)
-[<img src="https://img.shields.io/twitter/follow/travistran1989.svg?label=Follow&style=social">](https://twitter.com/travistran1989)
+[![Build Status](https://github.com/ThePitagon/mysql-docker-env/actions/workflows/docker.yml/badge.svg)](https://github.com/ThePitagon/mysql-docker-env/actions/workflows/docker.yml)
+[<img src="https://img.shields.io/badge/version-1.0-brightgreen">]
+[<img src="https://img.shields.io/twitter/follow/ThePitagon.svg?label=Follow&style=social">](https://twitter.com/ThePitagon/)
+[<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white">](https://www.linkedin.com/company/pitagon/)
+[<img src="https://img.shields.io/badge/Facebook-1877F2?style=for-the-badge&logo=facebook&logoColor=white">](https://www.facebook.com/ThePitagon/)
 
 Install a lightweight MySQL based on Ubuntu 18.04 Linux.
 
@@ -14,7 +17,7 @@ Edit the `.env` file to update the default MySQL user and password.
 ## Installation
 Clone this repository or copy the files from this repository into a new folder:
 ```
-git clone https://github.com/Pitagon-P5N/mysql-docker-env.git
+git clone https://github.com/ThePitagon/mysql-docker-env.git
 ```
 Open a terminal, `cd` to the folder in which `docker-compose.yml` is saved, and run:
 ```
@@ -80,6 +83,6 @@ If you still have a question after using MySQL Docker Environment, you have a fe
 * Using support page on [Pitagon Website](https://pitagon.io).
 * Send email to [Pitagon Support Team](mailto:support@pitagon.vn) for help.
 * Connect [Travis Tran on Facebook](https://www.facebook.com/travistran1989) for real-time discussion.
-* Reporting any issue on [Github mysql-docker-env](https://github.com/Pitagon-P5N/mysql-docker-env/issues) project.
+* Reporting any issue on [Github mysql-docker-env](https://github.com/ThePitagon/mysql-docker-env/issues) project.
 
 **Pull requests are always welcome**
