@@ -1,5 +1,5 @@
 # MySQL Docker Environment
-[![Build Status](https://github.com/travistran1989/mysql-docker-env/actions/workflows/docker.yml/badge.svg)](https://github.com/travistran1989/mysql-docker-env/actions/workflows/docker.yml)
+[![Build Status](https://github.com/Pitagon-P5N/mysql-docker-env/actions/workflows/docker.yml/badge.svg)](https://github.com/Pitagon-P5N/mysql-docker-env/actions/workflows/docker.yml)
 [<img src="https://img.shields.io/twitter/follow/travistran1989.svg?label=Follow&style=social">](https://twitter.com/travistran1989)
 
 Install a lightweight MySQL based on Ubuntu 18.04 Linux.
@@ -14,7 +14,7 @@ Edit the `.env` file to update the default MySQL user and password.
 ## Installation
 Clone this repository or copy the files from this repository into a new folder:
 ```
-git clone https://github.com/travistran1989/mysql-docker-env.git
+git clone https://github.com/Pitagon-P5N/mysql-docker-env.git
 ```
 Open a terminal, `cd` to the folder in which `docker-compose.yml` is saved, and run:
 ```
@@ -77,7 +77,9 @@ After installation, you can use phpMyAdmin to access the database by visiting `h
 
 ## Support & Feedback
 If you still have a question after using MySQL Docker Environment, you have a few options.
+* Using support page on [Pitagon Website](https://pitagon.io).
+* Send email to [Pitagon Support Team](mailto:support@pitagon.vn) for help.
 * Connect [Travis Tran on Facebook](https://www.facebook.com/travistran1989) for real-time discussion.
-* Reporting any issue on [Github mysql-docker-env](https://github.com/travistran1989/mysql-docker-env/issues) project.
+* Reporting any issue on [Github mysql-docker-env](https://github.com/Pitagon-P5N/mysql-docker-env/issues) project.
 
 **Pull requests are always welcome**
