@@ -80,10 +80,13 @@ bash bin/db.sh [-D, --domain] example.com [-U, --user] USER_NAME [-P, --password
 After installation, you can use phpMyAdmin to access the database by visiting `http://127.0.0.1:8080` or `https://127.0.0.1:8443`. The default username is `travistran`, and the password is the same as the one you supplied in the `.env` file.
 
 ## Support & Feedback
-If you still have a question after using MySQL Docker Environment, you have a few options.
-* Using support page on [Pitagon Website](https://pitagon.io).
-* Send email to [Pitagon Support Team](mailto:support@pitagon.vn) for help.
-* Connect [Travis Tran on Facebook](https://www.facebook.com/travistran1989) for real-time discussion.
-* Reporting any issue on [Github mysql-docker-env](https://github.com/ThePitagon/mysql-docker-env/issues) project.
+If you still have a question after using Nginx Templates, you have a few options:
+* Using support page on [Pitagon Website](https://pitagon.io/).
+* [Send email to Pitagon Support Team](mailto:support@pitagon.vn) for help.
+* Reporting any issue on [Github nginx-templates](https://github.com/ThePitagon/nginx-templates/issues/) project.
+
+Connect with author:
+* Official site: [travistran.me](https://travistran.me/) | [truongtx.com](https://truongtx.com/).
+* Facebook: [@travistran1989](https://www.facebook.com/travistran1989/) for real-time discussion.
 
 **Pull requests are always welcome**
