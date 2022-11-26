@@ -87,6 +87,8 @@ If you still have a question after using Nginx Templates, you have a few options
 
 Connect with author:
 * Official site: [travistran.me](https://travistran.me/) | [truongtx.com](https://truongtx.com/).
-* Facebook: [@travistran1989](https://www.facebook.com/travistran1989/) for real-time discussion.
+* Facebook: [@travistran1989](https://www.facebook.com/travistran1989/).
+* Twitter: [@travistran1989](https://twitter.com/travistran1989/).
+* LinkedIn: [@travistran1989](https://www.linkedin.com/in/travistran1989/).
 
 **Pull requests are always welcome**
