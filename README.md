@@ -1,5 +1,7 @@
-# MySQL Docker Environment [![Build Status](https://github.com/ThePitagon/mysql-docker-env/actions/workflows/docker.yml/badge.svg)](https://github.com/ThePitagon/mysql-docker-env/actions/workflows/docker.yml) <img src="https://img.shields.io/badge/version-1.0-brightgreen"> [<img src="https://img.shields.io/twitter/follow/ThePitagon.svg?label=Follow&style=social">](https://twitter.com/ThePitagon/)
+# MySQL Docker Environment [<img src="https://img.shields.io/twitter/follow/ThePitagon.svg?label=Follow&style=social">](https://twitter.com/ThePitagon/)
 Install a lightweight MySQL based on Ubuntu 18.04 Linux.
+
+[![Build Status](https://github.com/ThePitagon/mysql-docker-env/actions/workflows/docker.yml/badge.svg)](https://github.com/ThePitagon/mysql-docker-env/actions/workflows/docker.yml) <img src="https://img.shields.io/badge/version-1.0-brightgreen">
 
 ### Prerequisites
 1. [Install Docker](https://www.docker.com/)
